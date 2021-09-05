@@ -1,0 +1,32 @@
+.chart-wrapper {
+  padding: 2%;
+  display: inline-block;
+}
+
+.main.chart-wrapper {
+  width: 96%;
+  height: 400px;
+}
+
+.sub.chart-wrapper {
+  width: 29%;
+  height: 300px;
+}
+.filters {
+  display: flex;
+}
+.filter__control {
+  margin-left: 1rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+.filter__menu {
+  margin-left: 1rem;
+}
+
+/* Simple responsivenss example */
+@media (max-width: 700px) {
+  .sub.chart-wrapper {
+    width: 96%;
+  }
+}
